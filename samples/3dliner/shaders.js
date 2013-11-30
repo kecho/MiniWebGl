@@ -5,7 +5,6 @@ TDLINER_SHADERS = {
         "uniform mat4 uView;\n" +
         "uniform mat4 uProjection;\n" +
         "uniform mat4 uViewProjection;\n" +
-        "uniform float uRedDotLocation;\n"+
         "varying vec3 vWorldPos;\n"+
         "void main () {\n" +
         "   vec4 pos = (uWorld * vec4(aPosition, 1.0));\n"+
